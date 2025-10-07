@@ -1,9 +1,10 @@
-streamlit==1.29.0
-pandas==2.0.3
-numpy==1.24.4
-scikit-learn==1.3.2
-nltk==3.8.1
-requests==2.31.0
+streamlit==1.38.0
+pandas==2.2.2
+numpy==1.26.4  # Fix for distutils error
+scikit-learn==1.5.2 # Updated to match newer numpy
+nltk
+requests
+
 
 
 
