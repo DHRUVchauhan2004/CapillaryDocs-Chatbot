@@ -1,8 +1,10 @@
-streamlit
+streamlit==1.38.0
 pandas
 numpy
 scikit-learn
 nltk
 requests
+
+
 
 
