@@ -33,7 +33,7 @@ def build_index(chunks):
 chunks = load_docs("data.json")
 if not chunks:
     st.error("No docs found. Run scraper.py to produce data.json first.")
-    st.stop()#
+    #st.stop()
 
 vectorizer, doc_vectors = build_index(chunks)
 
@@ -71,4 +71,5 @@ Examples:
 - How to access Entity Audit Logs API
 - Behavioral Events tracking
 """)
+
 
